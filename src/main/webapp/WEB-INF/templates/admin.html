@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Кошачьи Новости</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" th:href="@{/assets/favicon.ico}" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="../../css/styles.css" rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+
+<body>
+	<!-- Header-->
+	<div th:include="header::header"></div>
+
+	<!-- Page Content-->
+	<div class="container-fluid px-4">
+		<h1 class="mt-4">Страница администратора сайта</h1>
+	</div>
+
+	<!-- Footer-->
+	<div th:include="footer::copyright"></div>
+
+	<!-- Bootstrap core JS-->
+	<script src="../../js/bootstrap.bundle.min.js" th:src="@{/js/bootstrap.bundle.min.js}"></script>
+	<!-- Core theme JS-->
+	<script src="../../js/scripts.js" th:src="@{/js/scripts.js}"></script>
+</body>
+
+</html>

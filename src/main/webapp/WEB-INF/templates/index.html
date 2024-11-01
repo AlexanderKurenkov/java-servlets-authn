@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Кошачьи Новости</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" th:href="@{/assets/favicon.ico}" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="../../css/styles.css" rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+
+<body>
+	<!-- Header-->
+	<div th:include="header::header"></div>
+
+	<!-- Page Content-->
+	<div class="container px-4 px-lg-5">
+		<!-- Heading Row-->
+		<div class="row gx-4 gx-lg-5 align-items-center my-5">
+			<div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="../../assets/images/cat.jpg"
+					th:src="@{/assets/images/cat.jpg}" alt="..." />
+			</div>
+			<div class="col-lg-5">
+				<h1 class="font-weight-light">Самый большой в мире кот</h1>
+				<p class="text-justify">Кот породы мейн-кун по кличке Руперт весит около 9 кг. По всей видимости,
+					Руперт является самым крупным, но не самым толстым котом в мире. Хоть мейнкуны и так известны
+					своими огромными размерами, некоторых представителей этой породы можно назвать настоящими
+					великанами.
+				</p>
+				<a class="btn btn-primary" href="under-construction.html" th:href="@{/under-construction}">Узнать
+					больше</a>
+			</div>
+		</div>
+		<!-- Call to Action-->
+		<div class="card text-white bg-secondary my-5 py-4 text-center">
+			<div class="card-body">
+				<p class="text-white m-0 fs-3">
+					Международным Днём кошек является 8 августа.
+					В России День кошек также празднуют 1 марта.
+					Кошки в России — один из символов весны, а март традиционно считается «кошачьим» месяцем.
+				</p>
+			</div>
+		</div>
+		<!-- Content Row-->
+		<div class="row gx-4 gx-lg-5">
+			<div class="col-md-4 mb-5">
+				<div class="card h-100">
+					<div class="card-body">
+						<h2 class="card-title">Всемирный день кошек</h2>
+						<p class="card-text">Ежегодно 8 августа отмечается всемирный день кошек - праздник,
+							посвященный одному из самых популярных видов домашних животных.</p>
+						<img class="img-fluid rounded mb-4 mb-lg-0" src="../../assets/images/cats-day.jpg"
+							th:src="@{/assets/images/cats-day.jpg}" alt="..." />
+					</div>
+					<div class="card-footer"><a class="btn btn-primary btn-sm" href="under-construction.html"
+							th:href="@{/under-construction}">Читать</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-5">
+				<div class="card h-100">
+					<div class="card-body">
+						<h2 class="card-title">Потерявшийся кот вернулся домой</h2>
+						<p class="card-text">Вчера вечером Федя вернулся домой. О том, где же он всё это время
+							пропадал, Федя решил не говорить.</p>
+						<img class="img-fluid rounded mb-4 mb-lg-0" src="../../assets/images/Fedya.jpeg"
+							th:src="@{/assets/images/Fedya.jpeg}" alt="..." />
+					</div>
+					<div class="card-footer"><a class="btn btn-primary btn-sm" href="under-construction.html"
+							th:href="@{/under-construction}">Читать</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 mb-5">
+				<div class="card h-100">
+					<div class="card-body">
+						<h2 class="card-title">ТОП-5 самых больших пород</h2>
+						<p class="card-text">В этой подборке будут представлены самые крупные породы котов на
+							планете, с указанием среднестатистических данных высоты и длины тела взрослых особей.
+						</p>
+						<img class="img-fluid rounded mb-4 mb-lg-0" src="../../assets/images/largest-breeds.jpg"
+							th:src="@{/assets/images/largest-breeds.jpg}" alt="..." />
+					</div>
+					<div class="card-footer"><a class="btn btn-primary btn-sm" href="under-construction.html"
+							th:href="@{/under-construction}">Читать</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer-->
+	<div th:include="footer::copyright"></div>
+
+	<!-- Bootstrap core JS-->
+	<script src="../../js/bootstrap.bundle.min.js" th:src="@{/js/bootstrap.bundle.min.js}"></script>
+	<!-- Core theme JS-->
+	<script src="../../js/scripts.js" th:src="@{/js/scripts.js}"></script>
+</body>
+
+</html>
